@@ -1,6 +1,6 @@
 # 🛠️ Operational Network Automation Scripts
 
-Welcome to the **Operational Network Automation Scripts** repository! This collection of Python scripts is designed to support and streamline various tasks within operational technology (OT) and network infrastructure environments.
+Welcome to the **Operational Network Automation Scripts** repository! This collection of Python scripts is designed to support and streamline various tasks within a network infrastructure environment.
 
 ## 📌 Purpose
 
