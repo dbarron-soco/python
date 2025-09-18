@@ -144,7 +144,7 @@ Event‑specific **dynamic fields** (only present when matched) are prefixed wit
 
 ## Extending the Parser (Adding New Events)
 
-Add a new extractor in `log_parser_improved.py` and register it in the `EXTRACTORS` list. Example for OSPF adjacency changes:
+Add a new extractor in `log_parser.py` and register it in the `EXTRACTORS` list. Example for OSPF adjacency changes:
 
 ```python
 def extract_ospf_adj(message: str):
