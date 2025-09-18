@@ -250,6 +250,6 @@ Please:
 
 ## ⚖️ License
 
-Add your preferred license (e.g., MIT, Apache-2.0) to this repository’s `LICENSE` file.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
