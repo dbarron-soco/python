@@ -1,4 +1,3 @@
-
 # Cisco Syslog Parser
 
 A fast, extensible Python parser for Cisco-style syslog messages. It converts raw log lines into a tidy table you can filter, summarize, and export for further analysis.
@@ -23,9 +22,9 @@ A fast, extensible Python parser for Cisco-style syslog messages. It converts ra
 
 ```
 .
-├── log_parser_improved.py     # The parser CLI
-├── cisco_sample_100.txt       # Sample log lines (included)
-└── README.md                  # This file
+├── log_parser.py                 # The parser CLI
+├── cisco_sample_logfile.txt      # Sample log lines (included)
+└── README.md                     # This file
 ```
 
 > If you prefer the name `log_parser.py`, just rename the script; commands below stay the same except for the filename.
@@ -51,19 +50,19 @@ pip install pandas
 Run against the included sample file and print summaries:
 
 ```bash
-python log_parser_improved.py -i cisco_sample_100.txt --summary
+python log_parser.py -i cisco_sample_logfile.txt --summary
 ```
 
 Export parsed rows to CSV:
 
 ```bash
-python log_parser_improved.py -i cisco_sample_100.txt -o parsed.csv --format csv
+python log_parser.py -i cisco_sample_logfile.txt -o parsed.csv --format csv
 ```
 
 Build full datetimes by supplying a year (since many Cisco logs omit it):
 
 ```bash
-python log_parser_improved.py -i cisco_sample_100.txt --year 2025 -o parsed.json --format json
+python log_parser.py -i cisco_sample_logfile.txt --year 2025 -o parsed.json --format json
 ```
 
 ---
@@ -92,19 +91,19 @@ python log_parser_improved.py -i cisco_sample_100.txt --year 2025 -o parsed.json
 
 Only ACL software-path logs (IPACCESSLOGP) with severities 4–6:
 ```bash
-python log_parser_improved.py -i cisco_sample_100.txt \
+python log_parser.py -i cisco_sample_logfile.txt \
   --filter-mnemonic IPACCESSLOGP --filter-severity 4 5 6 --summary
 ```
 
 Only failed logins for a specific user:
 ```bash
-python log_parser_improved.py -i device.log \
+python log_parser.py -i device.log \
   --filter-event-type login_failed --filter-user admin -o failed_admin.csv
 ```
 
 Search for a specific command in logged commands:
 ```bash
-python log_parser_improved.py -i device.log \
+python log_parser.py -i device.log \
   --filter-event-type logged_command --regex "\\breload\\b" --regex-field f_command
 ```
 
