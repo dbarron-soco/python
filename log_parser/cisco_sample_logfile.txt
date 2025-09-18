@@ -1,0 +1,100 @@
+1: Sep 18 08:00:01.001 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
+2: Sep 18 08:01:02.002 CDT: %SEC-6-IPACCESSLOGP: list acl-vty-in permitted tcp 32.245.68.191(47424) -> 230.0.0.185(22), 8 packet
+3: Sep 18 08:01:03.003 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet2/2, changed state to down
+4: Sep 18 08:02:04.004 CDT: %SEC-6-IPACCESSLOGP: list acl-vty-in permitted tcp 136.47.253.161(55267) -> 236.0.0.80(80), 6 packet
+5: Sep 18 08:02:05.005 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to up
+6: Sep 18 08:03:06.006 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:operator logged command:!exec: copy startup-config running-config
+7: Sep 18 08:03:07.007 CDT: %SEC-6-IPACCESSLOGP: list acl-edge permitted tcp 115.10.255.220(35676) -> 237.0.0.150(443), 1 packet
+8: Sep 18 08:04:08.008 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:operator logged command:!exec: configure terminal
+9: Sep 18 08:04:09.009 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-core denied 27 6c:b7:cd:85:0c:e0 186.235.35.107 GigabitEthernet3/1-> 237.0.0.189, 2 packets
+10: Sep 18 08:05:10.000 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet1/1, changed state to down
+11: Sep 18 08:05:11.001 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to down
+12: Sep 18 08:06:12.002 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: monitor] [Source: 190.174.174.219] [Reason: Login Authentication Failed]
+13: Sep 18 08:06:13.003 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/3, changed state to up
+14: Sep 18 08:07:14.004 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to down
+15: Sep 18 08:07:15.005 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-edge denied 94 14:d1:e4:37:d8:77 102.113.126.61 GigabitEthernet2/3-> 229.0.0.227, 10 packets
+16: Sep 18 08:08:16.006 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: neteng] [Source: 250.7.240.90]
+17: Sep 18 08:08:17.007 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0, changed state to up
+18: Sep 18 08:09:18.008 CDT: %SYS-6-LOGOUT: User admin has exited tty session 3(17.1.145.111)
+19: Sep 18 08:09:19.009 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet2/2, changed state to down
+20: Sep 18 08:10:20.000 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to down
+21: Sep 18 08:10:21.001 CDT: %SYS-5-CONFIG_I: Configured from console by monitor on vty1 (96.5.0.203)
+22: Sep 18 08:11:22.002 CDT: %SYS-6-LOGOUT: User guest has exited tty session 2(78.2.245.65)
+23: Sep 18 08:11:23.003 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to down
+24: Sep 18 08:12:24.004 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/3, changed state to down
+25: Sep 18 08:12:25.005 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet3/3, changed state to down
+26: Sep 18 08:13:26.006 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:operator logged command:!exec: reload
+27: Sep 18 08:13:27.007 CDT: %SYS-6-LOGOUT: User guest has exited tty session 1(165.254.193.126)
+28: Sep 18 08:14:28.008 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-wan-in denied 41 98:ca:f0:d6:34:ec 163.43.17.132 GigabitEthernet2/1-> 226.0.0.124, 4 packets
+29: Sep 18 08:14:29.009 CDT: %SEC-6-IPACCESSLOGP: list acl-wan-in permitted tcp 150.57.0.225(48197) -> 228.0.0.123(22), 10 packet
+30: Sep 18 08:15:30.000 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to up
+31: Sep 18 08:15:31.001 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet3/0, changed state to down
+32: Sep 18 08:16:32.002 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet1/0, changed state to down
+33: Sep 18 08:16:33.003 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: guest] [Source: 193.174.104.71]
+34: Sep 18 08:17:34.004 CDT: %SYS-6-LOGOUT: User monitor has exited tty session 0(109.1.203.76)
+35: Sep 18 08:17:35.005 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin] [Source: 195.113.93.231] [Reason: Login Authentication Failed]
+36: Sep 18 08:18:36.006 CDT: %SYS-5-CONFIG_I: Configured from console by guest on vty3 (169.38.112.203)
+37: Sep 18 08:18:37.007 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:monitor logged command:!exec: show interfaces
+38: Sep 18 08:19:38.008 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admin] [Source: 17.192.223.199]
+39: Sep 18 08:19:39.009 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: guest] [Source: 143.22.208.107]
+40: Sep 18 08:20:40.000 CDT: %SYS-6-LOGOUT: User operator has exited tty session 1(107.226.199.173)
+41: Sep 18 08:20:41.001 CDT: %SEC-6-IPACCESSLOGP: list acl-wan-in permitted tcp 48.148.185.104(17960) -> 237.0.0.223(443), 10 packet
+42: Sep 18 08:21:42.002 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/1, changed state to up
+43: Sep 18 08:21:43.003 CDT: %SYS-6-LOGOUT: User guest has exited tty session 2(16.63.92.69)
+44: Sep 18 08:22:44.004 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: neteng] [Source: 250.120.200.31]
+45: Sep 18 08:22:45.005 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: neteng] [Source: 124.175.149.31] [Reason: Login Authentication Failed]
+46: Sep 18 08:23:46.006 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: guest] [Source: 90.226.155.204] [Reason: Login Authentication Failed]
+47: Sep 18 08:23:47.007 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:guest logged command:!exec: show running-config
+48: Sep 18 08:24:48.008 CDT: %SYS-5-CONFIG_I: Configured from console by monitor on vty3 (233.21.54.235)
+49: Sep 18 08:24:49.009 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet1/2, changed state to up
+50: Sep 18 08:25:50.000 CDT: %SYS-5-CONFIG_I: Configured from console by operator on vty4 (149.190.109.124)
+51: Sep 18 08:25:51.001 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: operator] [Source: 106.50.44.149]
+52: Sep 18 08:26:52.002 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-edge denied 83 6b:37:da:f7:9f:35 24.52.250.82 GigabitEthernet2/3-> 224.0.0.251, 9 packets
+53: Sep 18 08:26:53.003 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/1, changed state to up
+54: Sep 18 08:27:54.004 CDT: %SEC-6-IPACCESSLOGP: list acl-edge permitted tcp 197.112.12.62(18721) -> 228.0.0.247(80), 8 packet
+55: Sep 18 08:27:55.005 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet2/1, changed state to down
+56: Sep 18 08:28:56.006 CDT: %SYS-5-CONFIG_I: Configured from console by admin on vty4 (241.225.73.248)
+57: Sep 18 08:28:57.007 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-wan-in denied 74 27:c9:b1:25:7c:16 16.58.201.183 GigabitEthernet3/1-> 229.0.0.238, 5 packets
+58: Sep 18 08:29:58.008 CDT: %SYS-5-CONFIG_I: Configured from console by guest on vty2 (82.7.33.67)
+59: Sep 18 08:29:59.009 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admin] [Source: 173.80.209.21]
+60: Sep 18 08:30:00.000 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:neteng logged command:!exec: reload
+61: Sep 18 08:30:01.001 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:admin logged command:!exec: copy startup-config running-config
+62: Sep 18 08:31:02.002 CDT: %SYS-5-CONFIG_I: Configured from console by operator on vty0 (200.61.95.25)
+63: Sep 18 08:31:03.003 CDT: %SEC-6-IPACCESSLOGP: list acl-core permitted tcp 190.207.21.11(56243) -> 230.0.0.140(443), 1 packet
+64: Sep 18 08:32:04.004 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: admin] [Source: 89.211.133.203] [Reason: Login Authentication Failed]
+65: Sep 18 08:32:05.005 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0, changed state to up
+66: Sep 18 08:33:06.006 CDT: %SYS-5-CONFIG_I: Configured from console by monitor on vty1 (206.198.48.178)
+67: Sep 18 08:33:07.007 CDT: %LINK-3-UPDOWN: Interface GigabitEthernet2/1, changed state to up
+68: Sep 18 08:34:08.008 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to up
+69: Sep 18 08:34:09.009 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-core denied 36 b5:7f:ec:5a:43:da 61.185.171.205 GigabitEthernet3/3-> 235.0.0.150, 2 packets
+70: Sep 18 08:35:10.000 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: operator] [Source: 192.54.48.107] [Reason: Login Authentication Failed]
+71: Sep 18 08:35:11.001 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:monitor logged command:!exec: show running-config
+72: Sep 18 08:36:12.002 CDT: %SYS-6-LOGOUT: User monitor has exited tty session 2(233.95.62.142)
+73: Sep 18 08:36:13.003 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: operator] [Source: 78.97.166.239]
+74: Sep 18 08:37:14.004 CDT: %SYS-6-LOGOUT: User neteng has exited tty session 5(232.177.255.65)
+75: Sep 18 08:37:15.005 CDT: %SYS-5-CONFIG_I: Configured from console by admin on vty0 (208.190.11.58)
+76: Sep 18 08:38:16.006 CDT: %SYS-6-LOGOUT: User neteng has exited tty session 2(62.186.34.209)
+77: Sep 18 08:38:17.007 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:neteng logged command:!exec: configure terminal
+78: Sep 18 08:39:18.008 CDT: %SYS-5-CONFIG_I: Configured from console by monitor on vty2 (129.124.83.231)
+79: Sep 18 08:39:19.009 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/2, changed state to up
+80: Sep 18 08:40:20.000 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/2, changed state to up
+81: Sep 18 08:40:21.001 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admin] [Source: 62.170.11.9]
+82: Sep 18 08:41:22.002 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-vty-in denied 65 db:13:b6:57:7b:74 22.205.34.41 GigabitEthernet1/0-> 231.0.0.100, 7 packets
+83: Sep 18 08:41:23.003 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:neteng logged command:!exec: reload
+84: Sep 18 08:42:24.004 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/3, changed state to down
+85: Sep 18 08:42:25.005 CDT: %SEC-6-IPACCESSLOGP: list acl-edge permitted tcp 105.27.101.234(52101) -> 231.0.0.110(80), 2 packet
+86: Sep 18 08:43:26.006 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:admin logged command:!exec: reload
+87: Sep 18 08:43:27.007 CDT: %SEC-6-IPACCESSLOGP: list acl-edge permitted tcp 107.24.60.192(3012) -> 233.0.0.119(80), 9 packet
+88: Sep 18 08:44:28.008 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-core denied 7 25:b1:5c:2a:aa:3b 12.250.13.125 GigabitEthernet1/0-> 235.0.0.167, 7 packets
+89: Sep 18 08:44:29.009 CDT: %SEC-6-IPACCESSLOGP: list acl-edge permitted tcp 89.143.251.134(45561) -> 231.0.0.38(443), 4 packet
+90: Sep 18 08:45:30.000 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: operator] [Source: 88.238.185.121]
+91: Sep 18 08:45:31.001 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: monitor] [Source: 175.203.104.103] [Reason: Login Authentication Failed]
+92: Sep 18 08:46:32.002 CDT: %SEC_LOGIN-4-LOGIN_FAILED: Login failed [user: monitor] [Source: 32.179.224.209] [Reason: Login Authentication Failed]
+93: Sep 18 08:46:33.003 CDT: %SYS-5-CONFIG_I: Configured from console by admin on vty4 (250.69.63.169)
+94: Sep 18 08:47:34.004 CDT: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/2, changed state to up
+95: Sep 18 08:47:35.005 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-core denied 9 88:7d:85:65:dd:e2 223.215.71.190 GigabitEthernet2/0-> 235.0.0.30, 2 packets
+96: Sep 18 08:48:36.006 CDT: %PARSER-5-CFGLOG_LOGGEDCMD: User:guest logged command:!exec: show running-config
+97: Sep 18 08:48:37.007 CDT: %FMANFP-6-IPACCESSLOGNP: F0/0: fman_fp_image: list acl-vty-in denied 74 e1:ab:ac:ab:0a:5a 107.162.215.96 GigabitEthernet2/3-> 238.0.0.41, 10 packets
+98: Sep 18 08:49:38.008 CDT: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: operator] [Source: 96.37.145.173]
+99: Sep 18 08:49:39.009 CDT: %SYS-6-LOGOUT: User admin has exited tty session 5(109.55.86.12)
+100: Sep 18 08:50:40.000 CDT: %SEC-6-IPACCESSLOGP: list acl-vty-in permitted tcp 77.232.135.50(43148) -> 238.0.0.246(80), 7 packet
