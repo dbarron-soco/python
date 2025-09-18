@@ -198,7 +198,7 @@ Guidelines:
 
 ## License
 
-MIT (or company standard). Update this section as appropriate.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
 
