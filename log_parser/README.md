@@ -205,4 +205,4 @@ MIT (or company standard). Update this section as appropriate.
 
 ## Acknowledgements
 
-Thanks to the sample log (`cisco_sample_100.txt`) and the initial pattern ideas for shaping the first set of extractors.
+Thanks to the sample log (`cisco_sample_logfile.txt`) and the initial pattern ideas for shaping the first set of extractors.
