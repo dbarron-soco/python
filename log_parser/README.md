@@ -196,12 +196,6 @@ Guidelines:
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 ## Acknowledgements
 
 Thanks to the sample log (`cisco_sample_logfile.txt`) and the initial pattern ideas for shaping the first set of extractors.
