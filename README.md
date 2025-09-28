@@ -11,25 +11,6 @@ This repository serves as a centralized hub for automation tools that assist wit
 - Scheduled maintenance tasks
 - Integration with monitoring platforms
 
-## 📁 Repository Structure
-
-```
-network-automation-scripts/
-│
-├── config/
-│   └── auto_config_push.py
-├── diagnostics/
-│   └── ping_sweep.py
-│   └── interface_status_check.py
-├── logs/
-│   └── syslog_parser.py
-├── monitoring/
-│   └── snmp_polling.py
-├── utils/
-│   └── common_helpers.py
-└── README.md
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
