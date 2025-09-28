@@ -1,10 +1,3 @@
-"""
-Script Name:    capture_device_state.py
-Author:         Daniel Barron
-Date:           8/12/2025
-Description:    Captures the state of a device. Can be used before and after network changes to confirm stability.
-"""
-
 import logging
 from datetime import datetime
 from netmiko import ConnectHandler
