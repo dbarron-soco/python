@@ -1,18 +1,3 @@
-"""
-Cisco Syslog Parser (Improved)
-
-- Robust prefix parsing for: seq, month, day, time, timezone, facility, severity, mnemonic, message
-- Extensible event extractors for common Cisco events (ACL permits/denies, login, logout, link/line protocol, config, commands)
-- CLI with filtering and multiple output formats
-- Summary analytics (counts by event type/mnemonic/severity, top failed-login sources, interface flaps, ACL deny summary)
-
-Usage examples:
-  python log_parser_improved.py -i cisco_sample_100.txt --summary
-  python log_parser_improved.py -i cisco_sample_100.txt -o parsed.csv --format csv
-  python log_parser_improved.py -i cisco_sample_100.txt --filter-mnemonic IPACCESSLOGP --filter-severity 4 5
-
-Note: Cisco logs in samples don't include a year. You may supply --year to construct full datetimes.
-"""
 from __future__ import annotations
 import argparse
 import re
