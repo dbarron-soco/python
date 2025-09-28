@@ -2,9 +2,6 @@
 
 Capture a comprehensive snapshot of a Cisco device’s operational state — ideal for **pre‑change** and **post‑change** validation during maintenance windows or incident response.
 
-> **Author:** Daniel Barron  
-> **Created:** August 12, 2025
-
 ---
 
 ## ✨ What this script does
