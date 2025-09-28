@@ -1,10 +1,3 @@
-"""
-Script Name:    config_backup.py
-Author:         Daniel Barron
-Date:           4/28/2025
-Description:    Output the configuration of a Cisco device and store it in a predetermined location.
-"""
-
 from netmiko import ConnectHandler
 import shutil
 import os
