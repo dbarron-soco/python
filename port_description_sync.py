@@ -1,10 +1,3 @@
-"""
-Script Name:    port_description_sync.py
-Author:         Daniel Barron
-Date:           8/12/2025
-Description:    Checks CDP & LLDP Neighbor and updates consistent port descriptions.
-"""
-
 import logging
 from getpass import getpass
 from netmiko import ConnectHandler
